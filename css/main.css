@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    color: blue;
+  }
+
+input[type="text"] {
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: .25rem 0;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    color: blue;
+    background-color: lightcyan;
+  }
+
+button {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: .25rem;
+    color: blue;
+    background-color: lightcyan;
+}
