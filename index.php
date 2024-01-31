@@ -11,16 +11,16 @@
 
 <h1>Input Your Info</h1>
 <form action="<?php echo $_SERVER["PHP_SELF"] ?>"> 
-<!-- inputs prevent XSS and remain filled out  -->
-<label for="first">First Name:</label>
-<input type="text" id="first" name="first" autocomplete="off" value="<?php echo isset($_GET['first']) ? htmlspecialchars($_GET['first']) : ''; ?>"> 
-<label for="last">Last Name:</label>
-<input type="text" id="last" name="last" autocomplete="off" value="<?php echo isset($_GET['last']) ? htmlspecialchars($_GET['last']) : ''; ?>">
-<label for="age">Age:</label>
-<input type="text" id="age" name="age" autocomplete="off" value="<?php echo isset($_GET['age']) ? htmlspecialchars($_GET['age']) : ''; ?>">
-<div>
-    <button type="submit">Submit</button>
-</div>
+    <!-- inputs prevent XSS and remain filled out  -->
+    <label for="first">First Name:</label>
+    <input type="text" id="first" name="first" autocomplete="off" value="<?php echo isset($_GET['first']) ? htmlspecialchars($_GET['first']) : ''; ?>"> 
+    <label for="last">Last Name:</label>
+    <input type="text" id="last" name="last" autocomplete="off" value="<?php echo isset($_GET['last']) ? htmlspecialchars($_GET['last']) : ''; ?>">
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" autocomplete="off" value="<?php echo isset($_GET['age']) ? htmlspecialchars($_GET['age']) : ''; ?>">
+    <div>
+        <button type="submit">Submit</button>
+    </div>
 </form> 
 
 <?php 
